@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    background: rgba(255, 255, 255, 0.7);
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    backdrop-filter: blur(60px);
+}
+
+.menu-header{
+    width: 25%;
+    float: left;
+    padding: 13px;
+}
+
+.user-header{
+    float: left;
+    width: 13%;
+}
+
+.name-header{
+    /*bottom: 5px;*/
+    /*height: 35px;*/
+}
+
+.image-header{
+    margin-top: 10px;
+    margin-right: 24px;
+    float: right;
+    height: 36px;
+    left: 95.62%;
+    right: 2.5%;
+    border-radius: 24px;
+}
+
+.name-user{
+    padding-right: 70px;
+    height: 13px;
+    left: auto;
+    top: 10px;
+    font-family: Montserrat, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0125em;
+}
+
+.permisstion-user{
+    font-family: Montserrat, monospace;
+    font-size: 10px;
+    line-height: 9px;
+    color: #272727;
+    opacity: 0.5;
+    padding-left: 130px;
+}
+
+.title-header{
+    text-decoration: none;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0125em;
+    color: #3B4144;
+    opacity: 0.5;
+    margin-right: 30px;
+}
+
+.button-h{
+    padding-top: 15px;
+    width: 12%;
+    float: left;
+}
+
+.image-div{
+    width: 50%;
+    float: left;
+}
+
+.button-header{
+    float: left;
+    padding: 6px 24px;
+    color: aliceblue;
+    width: 131px;
+    height: 32px;
+    left: 1460px;
+    top: 21px;
+    background: #D93C23;
+    border-radius: 30px;
+    border-style:none ;
+}
+
+.logo-header{
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100px;
+}
+
+.heart-image{
+    margin:10px 30px 12px 0;
+    max-width: 20px;
+    float: left;
+}
+
+@media (min-width: 561px) {
+    .manu-bar{
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
+    .title-header{
+        display: none;
+    }
+    .manu-bar{
+        display: flex !important;
+        width: 25%;
+        float: left;
+        padding: 13px;
+    }
+}
+
+@media (max-width: 1690px) {
+    .name-header{
+        display: none;
+    }
+}
+
+@media (max-width: 1525px) {
+    .heart-image{
+        display: none;
+    }
+}
+
+@media (max-width: 880px) {
+    .button-header{
+        display: none;
+    }
+}
