@@ -2,24 +2,33 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0 auto;
+    font-family: Montserrat, monospace;
+}
+
 .header{
+    margin-top: 20px;
     background: rgba(255, 255, 255, 0.7);
     height: 75px;
-    left: 0px;
-    top: 0px;
-    right: 0px;
-    backdrop-filter: blur(60px);
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-header{
-    width: 25%;
-    float: left;
-    padding: 13px;
+    /*width: 25%;*/
+    /*float: left;*/
+    /*padding: 13px;*/
 }
 
 .user-header{
-    float: left;
-    width: 13%;
+    /*float: left;*/
+    /*width: 13%;*/
+    display: flex;
+}
+
+.user{
+    display: flex;
 }
 
 .name-header{
@@ -27,23 +36,20 @@
     /*height: 35px;*/
 }
 
+.btn-upload{
+
+}
+
 .image-header{
-    margin-top: 10px;
-    margin-right: 24px;
-    float: right;
     height: 36px;
-    left: 95.62%;
-    right: 2.5%;
     border-radius: 24px;
+    margin: 0 10px 10px 0;
 }
 
 .name-user{
-    padding-right: 70px;
+    /*padding-right: 70px;*/
+    margin: 2px 8px;
     height: 13px;
-    left: auto;
-    top: 10px;
-    font-family: Montserrat, monospace;
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
@@ -52,7 +58,7 @@
 }
 
 .permisstion-user{
-    font-family: Montserrat, monospace;
+    margin: 5px 8px;
     font-size: 10px;
     line-height: 9px;
     color: #272727;
@@ -62,7 +68,6 @@
 
 .title-header{
     text-decoration: none;
-    font-family: Montserrat, serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -70,18 +75,18 @@
     letter-spacing: 0.0125em;
     color: #3B4144;
     opacity: 0.5;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .button-h{
-    padding-top: 15px;
-    width: 12%;
-    float: left;
+    /*padding-top: 15px;*/
+    /*width: 12%;*/
+    /*float: left;*/
 }
 
 .image-div{
-    width: 50%;
-    float: left;
+    /*width: 50%;*/
+    /*float: left;*/
 }
 
 .button-header{
@@ -98,11 +103,11 @@
 }
 
 .logo-header{
-    margin-top: 25px;
-    display: block;
+    /*margin-top: 10px;*/
+    /*display: block;   */
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /*width: 50%;*/
     max-width: 100px;
 }
 
@@ -112,13 +117,60 @@
     float: left;
 }
 
+.dot-image{
+    max-width: 20px;
+    float: left;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.heading{
+    /*position: absolute;*/
+    margin-top: 30px;
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider{
+    width: 80%;
+    height: 24rem;
+    margin: 0 auto;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    background-size:100% ;
+    background-image: url("../images/heading.png");
+    height: 107%;
+    background-repeat: no-repeat;
+}
+
+.tieuDe{
+    width: 350px;
+    margin: 165px 250px 0 120px;
+    top: 282px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.noiDung{
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
+
 @media (min-width: 561px) {
     .manu-bar{
         display: none;
     }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1024px) {
     .title-header{
         display: none;
     }
@@ -130,15 +182,42 @@
     }
 }
 
+.content{
+    margin: 50px auto;
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.color-green-dark{
+    background-color: #007882;
+}
+
+.navbar-content{
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    margin: 0 30px;
+    width: 120px;
+    height: 40px;
+}
+
 @media (max-width: 1690px) {
     .name-header{
         display: none;
     }
 }
 
-@media (max-width: 1525px) {
-    .heart-image{
+@media (max-width: 1535px) {
+    .heart-image , .dot-image{
         display: none;
+    }
+    .heading{
+        margin-top: 30px;
+        max-width: 1250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -147,3 +226,4 @@
         display: none;
     }
 }
+
