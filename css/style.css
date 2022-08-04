@@ -5,6 +5,7 @@
 body{
     margin: 0 auto;
     font-family: Montserrat, monospace;
+    font-style: normal;
 }
 
 .header{
@@ -164,6 +165,8 @@ body{
     font-size: 30px;
 }
 
+
+
 @media (min-width: 561px) {
     .manu-bar{
         display: none;
@@ -200,6 +203,88 @@ body{
     margin: 0 30px;
     width: 120px;
     height: 40px;
+    padding-top: 9px;
+}
+
+.navbar-content .color-green-dark{
+    display: flex;
+    vertical-align: middle;
+}
+
+.tintuc{
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+}
+
+.tintuc-img{
+    width: 45px;
+    margin: 10px;
+}
+
+.tintuc-img-content{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.tintuc-content{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.content-tintuc{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.content-tintuc-l{
+    width: 61%;
+}
+
+.content-tintuc-r{
+    width: 35%;
+}
+
+.content-tintuc-l-img,.content-tintuc-r-img{
+    width: 100%;
+}
+
+.content-tintuc-r-des,.content-tintuc-l-des{
+    display: flex;
+}
+
+.content-tintuc-dot{
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background-color: black;
+    margin: auto 20px;
+}
+
+.content-tintuc-content{
+    font-weight: 600;
+    color: black;
+}
+
+.content-tintuc-des{
+    font-weight: 400;
+    opacity: 0.5;
+    color: black;
+}
+
+.content-tintuc-name{
+    font-weight: 400;
+    color: black;
+}
+
+.content-tintuc-xahoi{
+    color: #007882;
+    font-weight: 600;
 }
 
 @media (max-width: 1690px) {
