@@ -256,6 +256,7 @@ body{
 
 .content-tintuc-r-des,.content-tintuc-l-des{
     display: flex;
+    margin: 0 0 0 10px;
 }
 
 .content-tintuc-dot{
@@ -263,18 +264,20 @@ body{
     height: 5px;
     border-radius: 100px;
     background-color: black;
-    margin: auto 20px;
+    margin: auto 12px;
 }
 
 .content-tintuc-content{
     font-weight: 600;
     color: black;
+    margin: 10px 0 0 10px;
 }
 
 .content-tintuc-des{
     font-weight: 400;
     opacity: 0.5;
     color: black;
+    margin: auto auto auto 0;
 }
 
 .content-tintuc-name{
@@ -285,6 +288,125 @@ body{
 .content-tintuc-xahoi{
     color: #007882;
     font-weight: 600;
+}
+
+.content-video{
+    width: 65%;
+    margin: 40px auto;
+}
+
+.content-video-title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.content-video-title-v{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.content-video-title-all{
+    color: black;
+}
+
+.content-video-video{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-video-video-l{
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content-video-video-r{
+    width: 21%;
+}
+
+.content-video-video-l-video{
+    margin:0 auto;
+}
+
+.content-video-video-l-heart{
+    height: 33.3%;
+    margin: 0 0 0 auto;
+    padding: 30px;
+}
+
+.content-video-video-l-des{
+    width: 100%;
+    height: 29.4%;
+    background-image: url("../images/video/boderbox.png");
+    background-size: 100%;
+    border-radius: 30px;
+}
+
+.content-video-video-l-tron-div{
+    height: 33.3%;
+}
+
+.content-video-video-l-heart-img{
+    width: 25px;
+}
+
+.content-video-video-tamgiac{
+    width: 76%;
+    display: flex;
+    background-size:100% ;
+    background-image:url("../images/video/video1.png") ;
+    background-repeat: no-repeat;
+}
+
+.content-video-video-l-tron{
+    display: flex;
+    width: 140px;
+    height: 140px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/video/tron.png");
+    margin: 0 auto;
+    align-items: center;
+}
+.content-video-video-l-des-text{
+    margin: 60px auto 0 20px;
+}
+
+.content-video-video-l-des-viewdate{
+    margin: 0 auto 0 20px;
+}
+
+.content-video-video-r-video{
+    width: 100%;
+}
+
+.content-video-video-r-des{
+    display: flex;
+}
+
+.content-video-video-l-des-viewdate{
+    display: flex;
+}
+
+.content-video-video-l-des-text{
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.content-video-video-l-des-view{
+    color: white;
+}
+
+.content-video-video-l-des-date{
+    color: white;
+    opacity: 0.5;
 }
 
 @media (max-width: 1690px) {
