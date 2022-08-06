@@ -334,7 +334,9 @@ body{
 }
 
 .content-video-video-r{
-    width: 21%;
+    width: 25%;
+    overflow: auto;
+    height: 510px;
 }
 
 .content-video-video-l-video{
@@ -364,7 +366,8 @@ body{
 }
 
 .content-video-video-tamgiac{
-    width: 76%;
+    height: 510px;
+    width: 72%;
     display: flex;
     background-size:100% ;
     background-image:url("../images/video/video1.png") ;
