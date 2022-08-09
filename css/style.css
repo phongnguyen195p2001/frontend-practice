@@ -194,6 +194,7 @@ body {
     width: 120px;
     height: 40px;
     padding-top: 9px;
+    color: black;
 }
 
 .navbar-content .color-green-dark {
@@ -248,7 +249,7 @@ body {
     margin: 0 0 0 10px;
 }
 
-.content-tintuc-dot {
+.content-tintuc-dot,.detail-xahoi-des2-li-dot {
     width: 5px;
     height: 5px;
     border-radius: 100px;
@@ -569,7 +570,227 @@ body {
     max-width: 140px;
 }
 
+.content-video-list-xahoi{
+    margin: 0 auto 20px auto;
+    width: 60%;
+}
+
+.detail-xahoi{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-xahoi-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.detail-xahoi-title-left{
+    display: flex;
+    align-items: center;
+}
+
+.detail-xahoi-title-left-back{
+    margin-left: 10px;
+    color: #D93C23;
+    font-weight: 600;
+}
+
+.detail-xahoi-title-right-a{
+    color: white;
+    font-weight: 600;
+    margin-left: 5px;
+    border-radius: 25px;
+    padding: 7px 20px;
+}
+
+.detail-xahoi-content{
+    color: black;
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.detail-xahoi-social{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.detail-xahoi-social-net,.detail-xahoi-social-net-fb,.detail-xahoi-social-net-mail,.detail-xahoi-social-net-save{
+    display: flex;
+    align-items: center;
+}
+
+.detail-xahoi-social-net-fb,.detail-xahoi-social-net-mail,.detail-xahoi-social-net-save{
+    border-radius: 100px;
+    font-weight: 600;
+    width: 120px;
+    margin: 0 10px;
+}
+
+.detail-xahoi-social-net-mail{
+    color: white;
+    background-color: gray;
+}
+
+.detail-xahoi-social-net-fb{
+    color: white;
+    background-color: darkblue;
+    opacity: 0.8;
+}
+
+.detail-xahoi-social-net-save{
+    color: black;
+    border-style: solid;
+    border-color: black;
+}
+
+.detail-xahoi-social-net-guimail,.detail-xahoi-social-net-luu,.detail-xahoi-social-net-share{
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.fa-envelope{
+    margin-left: 14px;
+}
+
+.fa-facebook{
+    margin-left: 17px;
+}
+
+.fa-heart{
+    margin-left: 24px;
+}
+
+.detail-xahoi-des{
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+}
+
+.detail-xahoi-des2-des{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+}
+
+.detail-xahoi-des2-li{
+    display: flex;
+    align-items: center;
+}
+
+.detail-xahoi-des2-des-title{
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.detail-xahoi-key{
+    display: flex;
+}
+
+.detail-xahoi-key1{
+    margin-right: 30px;
+    border-radius: 100px;
+    background-color: #e6e6e6;
+    padding: 7px 25px;
+}
+
+.content-video-list-xahoi-detail-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-video-list-xahoi-detail-title-t{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.content-video-list-xahoi-detail-title-tt{
+    font-size: 18px;
+    color: #272727;
+    font-weight: 600;
+}
+
+.content-video-list-xahoi-detail-title-xahoi{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+    border-radius: 25px;
+    padding: 7px 20px;
+}
+
+.content-video-list-content-des-information-name{
+    color: #272727;
+}
+
 @media only screen and (max-width: 1024px ) {
+
+    .content-video-list-xahoi{
+        width: 90% !important;
+    }
+
+    .detail-xahoi{
+        width: 90%;
+    }
+
+    .content-video-list-content-des-information {
+        font-size: 12px;
+        width: 100% !important;
+    }
+
+    .content-video-list-content-des-des{
+        font-size: 13px;
+    }
+
+    .detail-xahoi-des{
+        font-size: 15px;
+    }
+
+    .detail-xahoi-des2-des,.content-video-list-content-des-title{
+        font-size: 15px !important;
+    }
+
+    .detail-xahoi-des2-li{
+        font-size: 10px;
+    }
+
+    .detail-xahoi-h1{
+        font-size: 30px;
+    }
+
+    .detail-xahoi-content{
+        font-size: 33px;
+    }
+
+    .detail-xahoi-social-net-guimail,.detail-xahoi-social-net-luu,.detail-xahoi-social-net-share{
+        font-size: 10px;
+    }
+
+    .detail-xahoi-social{
+        width: 100%;
+        align-items: center;
+        font-size: 12px;
+    }
+
+    .content-video-list-content-des-information{
+        width: 50%;
+    }
+
+    .detail-xahoi-social-net{
+        width: 50%;
+    }
+
+    .content-tintuc-dot{
+        width: 3px;
+        height: 3px;
+    }
+
     .button-header {
         display: none;
     }
@@ -729,9 +950,62 @@ body {
     .content-video-video-r-content{
         width: 300px;
     }
+
+    .content-video-list-content{
+        font-size: 8px;
+    }
+
+    .content-video-list-content-des-title{
+        font-size: 9px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
+
+    .content-video-list-xahoi-detail-title-tt,.content-video-list-xahoi-detail-title-xahoi,.content-video-list-xahoi-detail-title-all{
+        font-size: 10px !important;
+    }
+
+    .detail-xahoi-key{
+        font-size: 9px;
+    }
+
+    .detail-xahoi-des2-li{
+        font-size: 9px;
+    }
+
+    .detail-xahoi-des2-li-dot{
+        width: 5px;
+        height: 3px;
+        border-radius: 100px;
+    }
+
+    .detail-xahoi-des,.detail-xahoi-des2-des, .content-video-list-content-des-title{
+        font-size: 12px !important;
+    }
+
+    .detail-xahoi-social-net{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .detail-xahoi-social-net-mail{
+        margin-left: 0;
+    }
+
+    .detail-xahoi-title{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    .detail-xahoi-content,.detail-xahoi-h1{
+        font-size: 20px;
+    }
+
+    .detail-xahoi-h1{
+        font-size: 17px;
+    }
+
     .header {
         height: 35px;
         margin: 14px auto 0 auto;
@@ -865,5 +1139,19 @@ body {
         font-size: 11px;
         width: 150px;
         height: 50px;
+    }
+
+    .content-video-list-xahoi{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .content-video-list-content-des-des{
+        font-size: 9px;
+    }
+
+    .navbar-content{
+        font-size: 11px;
     }
 }
