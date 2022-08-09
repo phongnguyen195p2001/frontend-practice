@@ -6,11 +6,11 @@ Link đề bài: https://www.figma.com/file/OqoskP3WsOjZYsIaXsqdm0/ReviewNha?nod
 
 Cách sử dụng kết quả:
 - Download code và run code tại đường dẫn https://github.com/phongnguyen195p2001/frontend-practice hoặc truy cập website https://phongnguyen195p2001.github.io/frontend-practice/
-Responsive trên màn hình:
+## Responsive trên màn hình:
  - 1027px
  - 768 px
  - 375 px
- Được viết bằng :
+## Được viết bằng :
  - Html
  - Css
  - Javascript 
