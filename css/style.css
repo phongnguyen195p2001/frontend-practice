@@ -24,15 +24,6 @@ body {
     display: flex;
 }
 
-.name-header {
-    /*bottom: 5px;*/
-    /*height: 35px;*/
-}
-
-.btn-upload {
-
-}
-
 .image-header {
     height: 36px;
     border-radius: 24px;
@@ -40,7 +31,6 @@ body {
 }
 
 .name-user {
-    /*padding-right: 70px;*/
     margin: 2px 8px;
     height: 13px;
     font-weight: 600;
@@ -69,17 +59,6 @@ body {
     color: #3B4144;
     opacity: 0.5;
     margin-right: 40px;
-}
-
-.button-h {
-    /*padding-top: 15px;*/
-    /*width: 12%;*/
-    /*float: left;*/
-}
-
-.image-div {
-    /*width: 50%;*/
-    /*float: left;*/
 }
 
 .button-header {
@@ -957,6 +936,22 @@ body {
 
     .content-video-list-content-des-title {
         font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .content-video-list-content-des-title {
+        font-size: 9px !important;
+        margin-top: 0;
+    }
+
+    .content-video-list-content-des-information {
+        font-size: 8px;
+    }
+
+    .content-video-list-content-des-des {
+        font-size: 7px;
     }
 }
 
