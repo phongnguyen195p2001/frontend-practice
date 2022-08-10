@@ -940,6 +940,30 @@ body {
 }
 
 @media only screen and (max-width: 425px) {
+    .detail-xahoi-key1 {
+        font-size: 9px;
+    }
+
+    .content-video-list-xahoi-detail-title-tt, .content-video-list-xahoi-detail-title-xahoi, .content-video-list-xahoi-detail-title-all {
+        font-size: 11px !important;
+    }
+
+    #detail-xahoi-social-div{
+        font-size: 13px !important;
+        margin-left: 0 !important;
+    }
+
+    .detail-xahoi-social{
+        flex-direction: column;
+    }
+
+    .detail-xahoi-social-net{
+        width: 100%;
+    }
+
+    .detail-xahoi-content ,.detail-xahoi-h1{
+        font-size: 24px;
+    }
 
     .content-video-list-content {
         margin-top: 20px;
@@ -985,7 +1009,7 @@ body {
 
     .detail-xahoi-social-net {
         width: 100%;
-        margin-bottom: 16px;
+        margin-bottom: 40px;
     }
 
     .detail-xahoi-social-net-mail {
